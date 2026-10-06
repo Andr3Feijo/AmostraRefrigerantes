@@ -79,6 +79,6 @@
     animation:  toActive 0.5s ease-in-out 1 ;
 }
 
-.iyem.active .title {
+.item.active .title {
     animation:  toActive 0.5s ease-in-out 1 ;
 }
