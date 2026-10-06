@@ -10,7 +10,7 @@
 }
 
 .item .title {
-    font-size: 12rem;
+    font-size: 18rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold; 
     text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .item .fruit{
-    width: 90%;
+    width: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
@@ -41,4 +41,29 @@
 }
 .item.active {
     display: block;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #eee9;
+    border: 1px solid #eee9;
+    border-radius: 50%;
+    color: #eee;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    z-index: 4;
+}
+
+
+#prev{
+    left: 5%;
+}
+
+#next{
+    right: 5%;
 }
