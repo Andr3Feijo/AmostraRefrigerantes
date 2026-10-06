@@ -18,5 +18,8 @@ prev.onclick = () => {
     let activeOld = document.querySelector('.active')
     activeOld.classList.remove('active')
 
+    active = active <= 0 ? count -1 : active + 1
+    List[active].classList.add('active')
+  
    
 }
