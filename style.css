@@ -67,3 +67,18 @@
 #next{
     right: 5%;
 }
+
+@keyframes toActive{
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+.item.active img.fruit{
+    animation:  toActive 0.5s ease-in-out 1 ;
+}
+
+.iyem.active .title {
+    animation:  toActive 0.5s ease-in-out 1 ;
+}
