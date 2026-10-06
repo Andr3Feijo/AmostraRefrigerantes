@@ -9,6 +9,36 @@
   background-color: var(--background);
 }
 
+.item .title {
+    font-size: 12rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    color: #ffffff;
+
+
+    position: absolute;
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%, -50%);
+}
+
+.item .fruit{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.item .refri{
+    width: 600px;
+    z-index: 2;
+
+    position: absolute;
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%, -50%);
+}
 .item.active {
     display: block;
 }
